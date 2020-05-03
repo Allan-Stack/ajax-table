@@ -1,0 +1,111 @@
+[
+    {
+        "id" : "1",
+        "name" : "Bread",
+        "address" : "4H5654hjgyfedw/2020",
+        "gender" : "5",
+        "age" : "Bakery",
+        "designation" : 4 
+        
+        
+
+         },
+         {
+            "id" : "5",
+            "name" : "Ghee",
+            "address" : "kjutr4567879/2020",
+            "gender" : "3",
+            "age" :"diary products",
+            "designation" : 3
+            
+    
+             },
+         {
+                "id" : "7",
+                "name" : "Coconut oil",
+                "address" : "er210fertyuiok/2020",
+                "gender" : "4",
+                "age" : "cookimg oil",
+                "designation" : 5
+                
+        
+                 },
+
+                 {
+                    "id" : "6",
+                    "name" : "GooD Day",
+                    "address" : "r4tyusfsffsg/2020",
+                    "gender" : "8",
+                     "age" : "biscuts",
+                     "designation" : 6
+                    
+            
+                     },
+                     {
+                        "id" : "10",
+                        "name" : "Wheat Powder",
+                        "address" : "e47s56hdgtew/2020",
+                         "gender" : "5",
+                          "age" : "cereals",
+
+                        "designation" : 7
+                        
+                
+                         },
+                         {
+                            "id" : "5",
+                            "name" : "Chilli Powder",
+                            "address" : "q45we3jgl/2020",
+                    
+                            "gender" : "6",
+                            "age" : "curry powder",
+
+                            "designation" : 8
+                            
+                    
+                             },
+                             {
+                                "id" : "8",
+                                "name" : "Rice",
+                                "address" : "54sdfelkjo/2020",
+                                "gender" : "8",
+                                 "age" : "Grains",
+
+                                "designation" : 9
+                                
+                        
+                                 },
+                                 {
+                                    "id" : "9",
+                                    "name" : "Jam",
+                                    "address" : "12df45ds78df1/2020",
+                                    "gender" : "5",
+                                     "age" : "Bakery",
+
+                                    "designation" : 10
+                                    
+                            
+                                     },
+                                     {
+                                        "id" : "13",
+                                        "name" : "Milk powder",
+                                        "address" : "25sdfg2hjker/2020",
+                                        "gender" : "2",
+                                        "age" : "diary products",
+
+                                        "designation" : 11
+                                        
+                                
+                                         },
+                                         {
+                                            "id" : "11",
+                                            "name" : "Peas",
+                                            "address" : "werer854/2020",
+                                            "gender" : "10",
+                                            "age" :"pulses",
+
+                                            "designation" : 12
+                                            
+                                    
+                                             }
+                                                ]

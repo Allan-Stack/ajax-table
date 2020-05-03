@@ -1,0 +1,26 @@
+*{padding: 0;
+    margin: 0;
+
+
+
+
+}
+
+body  {
+
+    background-position: center;
+    background-size: cover;
+    font-size:25px;
+    color: blue;
+    font-size: 23px;
+    background-image: url(an1.jpg)
+}
+table {
+
+  
+    color: black;
+}
+h1 {
+
+    font-size: 35px;
+}

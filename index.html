@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocerry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="grocery.css">
+    
+    
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="table-responsive">
+            <h1>View List</h1>
+            <br/>
+            <table class="table table-bordered table-stripped" id="employee-table">
+                <tr>
+
+                    <th>Name</th>
+                    <th>Serial.NO</th>
+                    <th>Quantity</th>
+                    <th>Unit</th>
+                    <th>Department</th>
+                    
+
+                    
+
+
+
+
+
+
+                </tr>
+
+
+
+
+
+
+            </table>
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+        $.getJSON('employee.json',function(data) {
+            var employee_data = '';
+            $.each(data,function(key,value){
+                employee_data += '<tr>';
+                employee_data += '<td>'+value.name+'</td>';
+                employee_data += '<td>'+value.address+'</td>';
+                employee_data += '<td>'+value.gender+'</td>';
+                employee_data += '<td>'+value.designation+'</td>';
+                employee_data += '<td>'+value.age+'</td>';
+                employee_data += '</tr>';
+
+
+
+            });
+            $('#employee-table') .append(employee_data);
+            
+        });
+        
+    });
+        
+
+
+
+
+
+</script>
